@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Photographer</title>
+
+   <link href="css/default.css" rel="stylesheet" type="text/css" />
+   <link href="css/contact.css" rel="stylesheet" type="text/css" />
+   <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+   <script type="text/javascript" src="js/menu.js"></script>
+   <script type="text/javascript" src="js/jquery.validate.js"></script>
+   <!--[if lt IE 7.]>
+   <script defer type="text/javascript" src="js/pngfix.js"></script>
+   <![endif]-->
+   
+   <script type="text/javascript">
+   $(document).ready(function() {
+	$("#commentForm").validate();
+    });
+   </script>
+
+</head>
+<body>
+
+<!-- START HEADER -->
+<div id="header">
+    <ul>
+      <li><img src="design/logo-top.png" alt="#" /></li>
+      <li class="boxgrid1">
+        <a href="index.html"><span><b>HOME</b><br />welcome</span>
+        <span class="cover"><b>HOME</b></span></a>
+      </li> 
+      <li class="boxgrid2">
+        <a href="steampunk.html"><span><b>STEAMPUNK</b><br />Steampunk Portraits</span>
+        <span class="cover"><b>STEAMPUNK</b></span></a>
+      </li> 
+      <li class="boxgrid3">
+        <a href="nature.html"><span><b>NATURE</b><br />forest, flowers...</span>
+        <span class="cover"><b>NATURE</b></span></a>
+      </li> 
+      <li class="boxgrid4">
+        <a href="glamor.html"><span><b>GLAMOR</b><br />women, men...</span>
+        <span class="cover"><b>GLAMOR</b></span></a>
+      </li> 
+      <li class="boxgrid5">
+        <a href="senior.html"><span><b>senior</b><br />all kind of stuff</span>
+        <span class="cover"><b>senior</b></span></a>
+      </li> 
+      <li class="boxgrid6">
+        <a href="contact.html"><span><b>CONTACT ME</b><br />contact me today</span></a>
+      </li> 
+    </ul>
+</div><br /><!-- END HEADER -->
+
+<!-- START ABOUT ME AND CONTACT FORM -->
+<div id="contact">
+<!-- About me -->
+   <div id="aboutme">
+     <img src="design/profile.gif" alt="#" />
+     <b>About me</b><br /><br />
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+     when an unknown printer took a galley of type and scrambled it to make a type 
+     specimen book.<br /><br />
+     <em>It has survived not only five centuries, but also the leap 
+     into electronic typesetting, remaining essentially unchanged. 
+     It was popularised in the 1960s with the release of Letraset sheets 
+     containing.</em><br /><br />
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /> 
+     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+     when an unknown printer took a galley of type and scrambled it to make a type 
+     specimen book.<br />
+     It has survived not only five centuries, but also the leap 
+     into electronic typesetting, remaining essentially unchanged.<br /><br /><br />
+     <ul>
+      <li>
+       <span>Follow me on:</span><br />
+       <a href="#"><img src="design/icon-facebook.gif" alt="#" /></a>
+       <a href="#"><img src="design/icon-twitter.gif" alt="#" /></a>
+       <a href="#"><img src="design/icon-flickr.gif" alt="#" /></a>
+       <a href="#"><img src="design/icon-delicious.gif" alt="#" /></a>
+      </li>
+     </ul>
+   </div>
+<!-- Contact Form -->
+   <div id="contactform">
+    <form id="commentForm" method="post" class="cmxform" action="mail-contact.php">
+     Your Name:<br />
+     <input name="name" class="required" type="text" /><br />
+     Your E-mail:<br />
+     <input name="fromMail" type="text" class="required email" /><br />
+     Comment:<br />
+     <textarea name="message" rows="1" cols="1"class="required"></textarea><br />
+    <input name="Submit" type="submit" class="buttonsend" value="Send" />
+    </form>
+   </div>
+</div><!-- END ABOUT ME AND CONTACT FORM -->
+
+<!-- START FOOTER -->
+<div id="footer">
+ <ul>
+  <li><img src="design/logo-footer.png" alt="#" /></li>
+  <li>Copyright © <span>2010 JWPhotoworks</span> All rights reserved 
+  <a href="index.html">Home</a>|
+  <a href="steampunk.html">STEAMPUNK</a>|
+  <a href="nature.html">Nature</a>|
+  <a href="glamor.html">GLAMOR</a>|
+  <a href="senior.html">senior</a>|
+  <a href="contact.html">Contact me</a></li>
+ </ul>
+</div><!-- END FOOTER -->
+
+</body>
+</html>

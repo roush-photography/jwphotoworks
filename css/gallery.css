@@ -1,0 +1,22 @@
+body {background:#000 url('../design/background1.jpg') top center no-repeat ;}
+      
+/*------------------------------------ Gallery ----------------------------------*/
+#content-gallery {width:987px; height:650px; margin:auto; font:12px Arial; color:#837351;border:1px solid #000;}
+#gallery-wraper {padding-left:17px; height:500px; width:900px; margin:52px auto; text-align:left;}
+div.content a, div.navigation a {text-decoration:none;}
+
+/*----------------------------------- THUMBNAILS --------------------------------*/
+#thumbs {margin-top:15px;}
+ul.thumbs {clear:both; height:380px; width:900px; margin-left:-5px;}
+ul.thumbs li {float:left;}
+ul.thumbs img {margin:6px; padding:2px; border:1px solid #5b4d33; display:block;}
+
+/*--------------------------- TOP AND BOTTOM NAV-NUMBERS ------------------------*/
+div.navigation div.top {height:35px;}
+div.navigation div.bottom {margin-top:15px;}
+div.pagination {clear:both;}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis 
+    {display:block; float:left; padding:3px 7px 3px 7px; color:#9a875e; 
+     font:12px Verdana; background-color:#1b1405; margin-right:2px;}
+div.pagination a:hover {background-color:#837351; color:#f2eada; font:12px Verdana;}
+div.pagination span.current {font:12px Verdana; color:#f2eada; background-color:#837351;}
